@@ -1,0 +1,22 @@
+.grid {
+
+  width: 640px;
+  color: #555;
+
+  &__header {
+    font-weight: bold;
+    background: #eee;
+  }
+
+  &__header, &__content {
+    display: flex;
+    text-align: left;
+  }
+
+  &__cell {
+    flex: 1;
+    padding: .5rem;
+    border-bottom: 1px dashed #ccc;
+  }
+
+}
